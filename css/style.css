@@ -1,0 +1,374 @@
+* {
+        margin: 10px;
+        padding: 0;
+        box-sizing: border-box;
+}
+.carousel {
+        display: none;
+}
+.carousel-caption {
+                font-size: 20px;
+                font-weight: bold;
+                font-family: 'Work Sans';
+                width: 325px;
+                text-align:left;
+}
+header {
+        font-style: italic;
+        font-weight: bold
+}
+
+body {
+        font-family: 'Work Sans';
+}
+
+a {
+        color: #000000;
+        text-decoration: none;
+}
+
+a:hover {
+        color: #8b8b8b;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+.banner {
+        width: 1140px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+.banner1 h3{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 600px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner1 p{
+        font-size: 20px;
+        font-family: 'Work Sans';
+        width: 600px;
+        text-align: justify;
+        text-justify: inter-word;   
+}
+.banner2 h3{
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 400px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner2 p{
+        font-size: 20px;
+        font-family: 'Work Sans';
+        width: 400px;
+        text-align: justify;
+        text-justify: inter-word;  
+}
+#carrosel img{
+        display: none;
+}
+.highlights-ativo {
+        display: flex;
+}
+.banner3 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner4 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner5 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner6 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner7 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.banner8 h3{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 325px;
+        text-align: justify;
+        text-justify: inter-word; 
+}
+.container-grid {
+        width: 1200px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.logo {
+        width: 65%;
+        margin-left: 60%;
+}
+
+.pesquisa {
+        width: 50%;
+        margin-top: -5px;
+}
+
+.loginsignin {
+        width: 250px;
+        height: 36px;
+        display: flex;
+        justify-content: space-between;
+}
+.menu {
+        width: 800px;
+}
+
+.column {
+        flex: 50%;
+        padding: 0 4px;
+        padding-left: 300px;
+}
+
+.column img {
+        margin-top: 8px;
+        vertical-align: top;
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+td {
+        border: 1px solid black;
+        text-align: center;
+        padding: 0;
+}
+
+table {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 25%;
+        text-align: center;
+        width: 500px;
+
+}
+
+th {
+        height: 70px
+}
+
+.top{
+        width: 1140px;
+        display:flex;
+        justify-content: space-between;
+}
+.footer {
+        width: 100%;
+        background-color: #797979;
+        color: black;
+        text-align: left;
+        padding-top: 10px;
+}
+
+ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 350px;
+}
+
+.socialmedia {
+        display: inline;
+        justify-content: space-between;
+}
+
+.socialmedia img {
+        width: 50px;
+}
+
+hr {
+        width: 35%;
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        border-style: solid;
+        color: #000000;
+        border-width: 1px;
+}
+
+.logocompleto {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+}
+
+.logocompleto img {
+        width: 35%;
+        align-items: center;
+        display: flex;
+        align-items: left;
+}
+.barras {
+        width: 60px;
+        display: none;
+}
+.posicionamento-header{
+        position: relative;
+}
+@media screen and (max-width: 1200px) {
+        .container-grid {
+                width:90%;
+        }
+.menu {
+        display: none;
+}
+.menu a{
+        font-size: 16px;
+}
+.logo{
+        width: 63px;
+}
+.pesquisa {
+        width: 65%;
+}
+.barras {
+        display: inline-block;
+}
+.carousel {
+        display: flex;
+}
+.carousel-inner img{
+        filter: brightness(35%);
+               
+ }
+ .carousel-caption a{
+        text-align: justify;
+        color: white;
+        font-weight: normal;
+        font-size: 30px;
+}
+.center {
+        width: 900px;
+}
+.highlights {
+        display: none;
+}
+.top{
+        width: 900px;
+        display:flex;
+        justify-content: space-between;
+}
+table {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Work Sans';
+        width: 30%;
+        text-align: center;
+        width: 350px;
+}
+}
+@media screen and (max-width: 768px) {
+        .logo{
+                width: 45px;
+        }
+        .pesquisa {
+                width: 50%;
+        }
+        .barras {
+                display: inline-block;
+        }
+        .menu {
+                display: none;
+                flex-direction: column;
+                width: 250px;
+                position: absolute;
+                top: 0;
+                right: 40px;
+                background-color: #a7a7a7;
+        }
+        .menu a{
+                text-align: center;
+                padding: 15px;
+        }
+        .menu-ativo {
+                display: flex;
+
+        }
+        .top{
+                display:block;
+                justify-content: space-between;
+        }
+        table {
+                font-size: 15px;
+                font-weight: bold;
+                font-family: 'Work Sans';
+                width: 25%;
+                text-align: center;
+                width: 350px;
+        }
+        .container {
+                padding-left: 25px;
+        }
+        .carousel {
+                display: flex;
+        }
+        .carousel-inner img{
+               filter: brightness(35%);
+                      
+        }
+        .highlights {
+                display: none;
+        }
+        .carousel-caption a{
+                font-size: 20px;
+                color: white;
+                text-align: left;
+                font-weight: normal;
+        }
+        .center {
+                width: 500px;
+        }
+        .socialmedia img {
+                width: 30px;
+                height: 30px;
+        }
+        .logocompleto img {
+                width: 60%;
+        }
+        .banner {
+                display: none;
+        }
+}
